@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Solidarize - Ajude Sem Expor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #388e3c;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    .formulario, .familias {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .familia {
+      background: #e8f5e9;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #c8e6c9;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Solidarize</h1>
+    <p>Conectando quem pode ajudar com quem precisa — com respeito e privacidade</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#doador">Quero Contribuir</a>
+    <a href="#familias">Famílias Necessitadas</a>
+    <a href="#ajuda">Como Ajudar</a>
+  </nav>
+
+  <main id="inicio">
+    <h2>🌍 Sobre o Projeto</h2>
+    <p>Este protótipo simula um aplicativo criado para facilitar o contato entre pessoas dispostas a ajudar e famílias em situação de vulnerabilidade. A proposta é manter a privacidade dos doadores, evitar exposição das famílias e promover ações solidárias seguras e respeitosas.</p>
+
+    <section id="doador" class="formulario">
+      <h2>📝 Cadastro de Doadores (simulado)</h2>
+      <p>Preencha os campos abaixo com os dados que desejar compartilhar (não são armazenados neste protótipo).</p>
+      <label>Nome (opcional):</label>
+      <input type="text" placeholder="Seu nome">
+      <label>Cidade:</label>
+      <input type="text" placeholder="Sua cidade">
+      <label>Tipo de ajuda que pode oferecer:</label>
+      <select>
+        <option>Alimentos</option>
+        <option>Roupas</option>
+        <option>Dinheiro</option>
+        <option>Medicamentos</option>
+        <option>Outros</option>
+      </select>
+      <label>Observações:</label>
+      <textarea rows="3" placeholder="Informações adicionais"></textarea>
+      <p><em>Este formulário é apenas ilustrativo.</em></p>
+    </section>
+
+    <section id="familias" class="familias">
+      <h2>👨‍👩‍👧 Famílias Necessitadas</h2>
+
+      <div class="familia">
+        <strong>Cidade: Goiânia (GO)</strong><br>
+        Família com 3 crianças precisa de alimentos e roupas infantis.
+      </div>
+
+      <div class="familia">
+        <strong>Cidade: Aparecida de Goiânia (GO)</strong><br>
+        Idosa acamada precisa de fraldas geriátricas e medicamentos.
+      </div>
+
+      <div class="familia">
+        <strong>Cidade: Trindade (GO)</strong><br>
+        Família desempregada solicita cesta básica e produtos de higiene.
+      </div>
+
+      <p><em>As informações são simuladas, respeitando a privacidade das famílias.</em></p>
+    </section>
+
+    <section id="ajuda">
+      <h2>🤝 Como Ajudar</h2>
+      <p>Se você deseja contribuir, entre em contato com uma organização local ou grupo comunitário que possa intermediar a doação. Esta plataforma simula o conceito de privacidade e conexão entre pessoas com empatia e responsabilidade.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto de Extensão – Uninter • Desenvolvido por Wesley Filipe</p>
+  </footer>
+</body>
+</html>
